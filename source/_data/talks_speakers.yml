@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -21,12 +21,12 @@ tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+#  track_2: &track_2
+#    id: 2
+#    title: "Track 2"
+#  track_3: &track_3
+#    id: 3
+#    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -38,15 +38,27 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2021-06-08T09:45+02:00
     title: "Day 1"
     talks:
-      talk_1:
+    # service
+      opening:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
+        start_datetime: 2021-06-08T09:45+02:00
+        end_datetime: 2021-06-08T10:00+02:00
+        talk_title: "Opening by GrUSP"
+      closing:
+        item_type: "service"
+        start_datetime: 2021-06-08T17:45+02:00
+        end_datetime: 2021-06-08T18:00+02:00
+        talk_title: "See you tomorrow!"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2021-06-08T11:00+02:00
+        end_datetime: 2021-06-08T11:15+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      coffee-afternoon:
         item_type: "service"
         start_datetime: 2022-05-19T13:00+02:00
         end_datetime: 2022-05-19T14:30+02:00
@@ -60,23 +72,97 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
+      # talk1:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T09:30+02:00
+      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      # titolotalk2:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+
+      # talk3:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T09:30+02:00
+      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      # titolotalk4:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+
+      # talk5:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T09:30+02:00
+      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      # titolotalk6:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+
+      # talk7:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T09:30+02:00
+      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      # titolotalk8:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+
+      # talk9:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T09:30+02:00
+      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker

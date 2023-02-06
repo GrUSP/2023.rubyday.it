@@ -22,6 +22,6 @@ info_venue:
   content: "Practical info"
 info_ticket:
   title: "Tickets"
-  content: "The tickets are available on Eventbrite"
+  content: "The tickets are available on ti.to"
   # the tickets link is the only one that does not use the "global" label
   readmore_label: "GET YOURS"

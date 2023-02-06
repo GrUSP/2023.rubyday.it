@@ -6,14 +6,14 @@
 # conference config
 conference:
   # Online-only conferences
-  is_online_only: true
+  is_online_only: false
   online_location: "online"
   online_location_title: "The Internet"
   online_location_info: "The conference is taking place virtually"
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://rubyday-2021.eventbrite.com"
+  buy_tickets_url: "https://ti.to/grusp/rubyday-2023"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -24,9 +24,9 @@ conference:
   contact_email: "rubyday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "rubyday Digital Edition"
-  city: "online"
-  date: 2021-04-15T10:00+02:00
+  title: "rubyday 2023"
+  city: "Verona"
+  date: 2023-06-16T09:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -47,21 +47,20 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2021-02-28T23:59+01:00
+  cfp_deadline: 2023-03-15T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "RubyDay 2021 is the 9th edition of the Italian Ruby conference, for the 3rd year in a row organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
+  geninfo_description: "RubyDay 2023 is the 10th edition of the Italian Ruby conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all Rubyists to meet and share experience while having fun and networking in an enjoyable context.
-  <br />
-  <br> Due to the current pandemic situation, the 2021 edition is taking place online."
+  <br />"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -123,18 +122,18 @@ conference:
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
-  media_video_is_youtube: true
+  media_video_is_youtube: false
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
-  vimeo_base_url: "https://vimeo.com/album/"
+  vimeo_base_url: "https://vimeo.com/showcase/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
   youtube_playlist_id: "PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
-  vimeo_showcase_id: "6048109"
+  vimeo_showcase_id: "8334627"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  location_visible: false
+  location_visible: true
   location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
+  location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
   location_maps_label: "Get directions"
   location_readmore_label: "Read more"
@@ -151,7 +150,7 @@ conference:
   social_fb_url: "https://www.facebook.com/rubydayit/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
   social_twitter_url: "https://twitter.com/rubydayit"
-  social_vimeo_url: "https://vimeo.com/grusp"
+  social_vimeo_url: "https://vimeo.com/channels/rubyday"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
 
@@ -170,6 +169,7 @@ conference:
     2016: "2016"
     2019: "2019"
     2020: "2020"
+    2021: "2021"
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
