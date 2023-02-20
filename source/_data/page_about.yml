@@ -34,18 +34,22 @@ team:
       role: "Sponsors Manager"
       pic_filename: "giovanna.jpg"
     member_4:
+      name: "Giorgio Fochesato"
+      role: "community manager"
+      pic_filename: "giorgio-fochesato.png"
+    member_5:
       name: "Francesco Fullone"
       role: "Troublemaker"
       pic_filename: "fullo.jpg"
-    member_5:
+    member_6:
       name: "Lara Lombardi"
       role: "Marketing manager"
       pic_filename: "lara.png"
-    member_6:
+    member_7:
       name: "Daniel Londero"
       role: "GrUSP Board Member"
       pic_filename: "daniel.jpg"
-    member_7:
+    member_8:
       name: "Giulia Tosato"
       role: "Event Manager"
       pic_filename: "giulia.jpg"
