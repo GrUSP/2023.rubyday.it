@@ -9,11 +9,11 @@ sponsors_block_title: "Thanks to our sponsors and partners"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "Treatwell"
+    logo_filename: "treatwell.svg"
+    site_url: "https://www.treatwell.co.uk/"
 gold:
   sponsor1:
     name: "workwave"
