@@ -40,10 +40,21 @@ This realization has led me to transition into the role of an engineering manage
   speaker_twitter_url: "https://twitter.com/gi_my86"
   is_mc: false
 
+speaker_4: &FrederickCheung
+  speaker_in_speaker_lists: true
+  speaker_name: "Frederick_Cheung"
+  speaker_pic_filename: Frederick_Cheung.png
+  speaker_role: "Lead Engineer @ skiller whale"
+  speaker_bio: "Lead Engineer at Skiller Whale and long term rubyist. Mediocre runner, cat enthusiast."
+  speaker_twitter_url: "https://twitter.com/fglc2"
+  speaker_github_url: "https://github.com/fcheung"
+  is_mc: false
+
 speakers:
   speaker_1: *PaoloPerrotta
   speaker_2: *RebeccaFernandes 
   speaker_3: *GiuliaMialich
+  speaker_4: *FrederickCheung
 
 tracks:
   track_1: &track_1
@@ -152,6 +163,18 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
           speaker_1: *GiuliaMialich
 
 
+      talk4:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "End to end typing for web applications"
+        talk_description: "Ever had a bug because the frontend made incorrect assumptions about the shape of response data from the backend? <br />
+        Or maybe you trod nervously during a refactor? Or perhaps you broke an app by changing the backend data in a way you didn’t think would matter? <br /><br /> 
+        This talk will show you how avoid these mistakes, enabling you to keep moving fast, by having a single source of truth for your data types, checked both on the frontend and the backend."
+        talk_video_url:
+        speakers:
+          speaker_1: *FrederickCheung
 
 
       
