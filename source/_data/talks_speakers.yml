@@ -4,18 +4,115 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &PaoloPerrotta
+  speaker_in_speaker_lists: true
+  speaker_name: "Paolo Perrotta"
+  speaker_pic_filename: Paolo_Perrotta.png
+  speaker_role: "Author"
+  speaker_bio: "Paolo Perrotta is the author of \"Metaprogramming Ruby\", \"Programming Machine Learning\", and a bunch of popular Pluralsight trainings.He has over thirty years of experience as a developer, ranging from embedded to enterprise software, computer games, and web applications."
+  speaker_linkedin_url: "https://www.linkedin.com/in/paoloperrotta/"
+  speaker_twitter_url: "https://twitter.com/nusco"
+  speaker_github_url: "https://github.com/nusco"
   is_mc: false
 
+speaker_2: &RebeccaFernandes
+  speaker_in_speaker_lists: true
+  speaker_name: "Rebecca Fernandes"
+  speaker_pic_filename: Rebecca_Fernandes.png
+  speaker_role: "Live Coding Artist & Facilitator"
+  speaker_bio: "Since 2015, Raia has been creating original live coded compositions in Sonic Pi with vocal layering. <br />
+  A founding member of Algorave India, much of their live coding is shared through workshops and live shows, supported by zkm, Goethe institute and the Canada Council for Arts. <br />
+  Being autodidactic in music and coding, xe brings a unique outlook to live coding production. 
+  <br />The resulting effects are lyrical music, enveloped by code, with the potential to connect."
+  speaker_github_url: "https://github.com/Raiamusic"
+  speaker_instagram_url: "https://www.instagram.com/rrraia_/"
+  is_mc: false
+
+
+speaker_3: &GiuliaMialich
+  speaker_in_speaker_lists: true
+  speaker_name: "Giulia Mialich"
+  speaker_pic_filename: Giulia_Mialich.png
+  speaker_role: "Engineering Manager @ Nebulab"
+  speaker_bio: "After over a decade of working as a full-stack developer, I have discovered that my passion for management and working with people surpasses my love for code.<br />
+This realization has led me to transition into the role of an engineering manager, where I can use my skills and experience to help others reach their full potential and make a meaningful impact on creating a healthy working environment."
+  speaker_linkedin_url: "https://www.linkedin.com/in/gmialich/"
+  speaker_twitter_url: "https://twitter.com/gi_my86"
+  is_mc: false
+
+speaker_4: &FrederickCheung
+  speaker_in_speaker_lists: true
+  speaker_name: "Frederick Cheung"
+  speaker_pic_filename: Frederick_Cheung.png
+  speaker_role: "Lead Engineer @ skiller whale"
+  speaker_bio: "Lead Engineer at Skiller Whale and long term rubyist. Mediocre runner, cat enthusiast."
+  speaker_twitter_url: "https://twitter.com/fglc2"
+  speaker_github_url: "https://github.com/fcheung"
+  is_mc: false
+
+speaker_5: &JuLiu
+  speaker_in_speaker_lists: true
+  speaker_name: "Ju Liu"
+  speaker_pic_filename: Ju_Liu.png
+  speaker_role: "Staff Engineer @ Shopify"
+  speaker_bio: "Ju was born in China, moved to Italy as a kid, grew up eating a lot of pasta, and started messing around with computers. <br />
+  He now lives in the UK and has learned to enjoy queueing. He loves to solve interesting problems and build amazing products. 
+  <br />When he’s not doing that, he’s probably rock climbing.."
+  speaker_twitter_url: "https://twitter.com/arkh4m"
+  speaker_github_url: "https://github.com/Arkham"
+  is_mc: false
+
+
+speaker_6: &RidhwanaKhan
+  speaker_in_speaker_lists: true
+  speaker_name: "Ridhwana Khan"
+  speaker_pic_filename: Ridhwana_Khan.png
+  speaker_role: "Lead Software Engineer @ Forem (aka DEV)"
+  speaker_bio: "Ridhwana is a lead software engineer at Forem aka DEV (https://dev.to/) where she feeds her passion for building & creating useful things! 
+  <br /> Currently living in in Cape Town, South Africa, she enjoys sharing her knowledge and learning from new & interesting people from all around the globe. 
+  <br />Ridhwana is also a founder of a non profit organisation called Kasi Maths where she's trying to change the state of education in South Africa one student at the time.."
+  speaker_twitter_url: "https://twitter.com/Ridhwana_K"
+  speaker_linkedin_url: "https://www.linkedin.com/in/ridhwanakhan/"
+  speaker_github_url: "https://github.com/Ridhwana"
+  is_mc: false
+
+
+speaker_7: &BozhidarBatsov
+  speaker_in_speaker_lists: true
+  speaker_name: "Bozhidar Batsov"
+  speaker_pic_filename: Bozhidar_Batsov.png
+  speaker_role: "Senior Director of Engineering @ Toptal"
+  speaker_bio: "I’m Bozhidar and I love computers in general and programming in particular. <br />
+  My fanatic devotion to Emacs is known world-wide. I spend a lot of my (free) time on GitHub, contributing to various open-source Ruby, Clojure and Emacs Lisp projects. 
+  <br />My most notable open-source projects are RuboCop (a linter/formatter for Ruby) and CIDER (a Clojure interactive development environment for Emacs)."
+  speaker_github_url: "https://github.com/bbatsov"
+  speaker_twitter_url: "https://twitter.com/bbatsov"
+  speaker_instagram_url: "https://www.instagram.com/bbatsov/"
+  is_mc: false
+
+speaker_8: &HanaHarencarova
+  speaker_in_speaker_lists: true
+  speaker_name: "Hana Harencarova"
+  speaker_pic_filename: Hana_Harencarova.png
+  speaker_role: "Software Engineer @ GitHub"
+  speaker_bio: "Hana is a Rubyist by heart and a software engineer at GitHub. 
+  <br />After finishing her PhD in judgement and decision making psychology she got more and more interested in coding. From working in R and data analysis she shifted her professional orientation to web development and programming. 
+  <br /> She fell in love with Ruby and she shares her passion by teaching at Ruby Monstas Zürich and Rails Girls."
+  speaker_github_url: "https://github.com/hharen"
+  speaker_twitter_url: "https://twitter.com/hanaharencar"
+  speaker_instagram_url: "https://www.instagram.com/momslearntocode/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/hana-harencarova/"
+
 speakers:
-  speaker_1: *speaker
+ 
+  speaker_7: *BozhidarBatsov
+  speaker_4: *FrederickCheung
+  speaker_2: *RebeccaFernandes 
+  speaker_8: *HanaHarencarova
+  speaker_6: *RidhwanaKhan
+  speaker_5: *JuLiu
+  speaker_3: *GiuliaMialich
+  speaker_1: *PaoloPerrotta
 
 tracks:
   track_1: &track_1
@@ -72,16 +169,138 @@ days:
         service_icon: "glass"
 
       # talk
-      # talk1:
-      #   item_type: "talk"
-      #   track: *track_1
-      #   # start_datetime: 2022-05-19T09:30+02:00
-      #   # end_datetime: 2022-05-19T10:25+02:00
-      #   talk_title: ""
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *speaker
+      talk1:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "How ChatGPT Works"
+        talk_description: "
+ChatGPT astonishes everyone, including maybe his own designers. As software developers, we're always looking for the gears behind the magic. <br/> How can this thing possibly work?<br />
+
+Unfortunately, delving into AI is no piece of cake. Even for programmers, modern AI is an intimidating field, ridden with math jargon and research-y conventions. <br />Transformers, word vectors, deep recurrent neural networks… <br />This talk doesn't simplify or dumb down those complex topics. Instead, it explains them in the language of developers: diagrams, examples, and code.
+
+Give me some time, and I'll give you an intuitive, high-level understanding of AI language models. Let's demystify language AI!"
+        talk_video_url:
+        speakers:
+          speaker_1: *PaoloPerrotta
+
+      talk2:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Anatomy of a Sonic Pi Song"
+        talk_description: "Have you ever considered what makes a \"good\" song? <br />
+        Maybe it's a sweet melody, or the beat that keeps you pushing through to the end of a workout. Whatever the use case, Sonic Pi can synthesize it. <br />
+        In our session together, raia takes participants through coding a range of song components, and together, we'll build a band of live loops including: rhythm sections, melody, chord progressions and audio embellishments. <br />
+        We'll build a song that can be mixed and modified at will and in the process, learn some key elements of what makes Sonic Pi \"sing.\" 
+        <br /> Expect to walk away with a deeper understanding of samples, synthesizers, live loops, if/for statements, spreads, rings, and lists, all within the Ruby-reliant context of Sonic Pi's live coding environment."
+        talk_video_url:
+        speakers:
+          speaker_1: *RebeccaFernandes
+
+
+      talk3:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "One-on-One: the benefit you should look for"
+        talk_description: "One-on-one meetings are crucial for promoting a healthy company culture, but do the participants truly recognize their value? <br />
+The theory says these meetings provide an excellent opportunity for managers and employees to improve communication, reduce conflicts, and increase job satisfaction and motivation.
+The reality shows that one-on-one effectiveness relies heavily on human interactions, making success unpredictable. <br/>
+<br />During the session, we'll explore effective practices to help answer questions such as:
+<br />What makes one-on-one meetings effective for managers and what for engineers?
+<br />How can we effectively communicate with silent individuals during these meetings?
+<br />Should we establish an agenda for the meeting or not?
+<br />Should personal matters be discussed during those sections?
+<br /><br />This talk is a must-attend if you want to improve your team management skills or gain insight into how one-on-one meetings can contribute to your professional development."
+        talk_video_url:
+        speakers:
+          speaker_1: *GiuliaMialich
+
+
+      talk4:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "End to end typing for web applications"
+        talk_description: "Ever had a bug because the frontend made incorrect assumptions about the shape of response data from the backend? <br />
+        Or maybe you trod nervously during a refactor? Or perhaps you broke an app by changing the backend data in a way you didn’t think would matter? <br /><br /> 
+        This talk will show you how avoid these mistakes, enabling you to keep moving fast, by having a single source of truth for your data types, checked both on the frontend and the backend."
+        talk_video_url:
+        speakers:
+          speaker_1: *FrederickCheung
+
+
+      talk5:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "The Functional Alternative"
+        talk_description: "We'll start with a simple Ruby Kata and solve it together, live, with imperative programming. 
+        <br />We'll then fix the many, many, many things we got wrong. Then we'll solve the problem again using patterns from functional programming. You'll leave this talk with a clear and concrete example of why functional programming matters, why immutable code matters, and why it can help you writing bug-free code. 
+        
+        <br /> <br />The next time you find yourself writing imperative code, you'll think about... the functional alternative."
+        talk_video_url:
+        speakers:
+          speaker_1: *JuLiu
+
+      talk6:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Caching strategies on https://dev.to"
+        talk_description: "We’ve always put a lot of effort into performance at DEV (https://dev.to/). 
+        <br />We want our users to be able to see their content almost instantaneously when interacting with our site. 
+        <br />In order to do so we’ve placed emphasis on caching. We’ve had to ask ourselves questions like what are the right things to cache? 
+        <br />Which layer in the stack would be best to cache it? And how will this affect the overall performance?
+
+        <br /><br />During this presentation, I’d like to show you some of the caching strategies we have in place and discuss how they’ve sped up the interactions within our site. "
+        talk_video_url:
+        speakers:
+          speaker_1: *RidhwanaKhan
+
+      talk7:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Ruby's Creed"
+        talk_description: "Every programming language has some fundamental idea(s) that drives its design and evolution. 
+        <br />For Haskell that’s functional purity and state-of-the-art static typing, for Erlang that’s distributed programming and fault tolerance, for Clojure that’s simplicity and stability. 
+        
+        <br /> <br />What all these examples have in common is that they are relatively easy to understand and map to design decisions in the languages. This, in turn, makes it possible to determine down the road whether a language sticks to its core values or deviates from them.
+
+        <br /> <br />Ruby, however, is very different. It’s world famous for its unique creed - “optimizing for programming happiness”. But what does this really mean? How does one optimize for happiness?
+
+        <br /> Unfortunately I’ve never heard Matz speak about this, so in this talk I’ll offer you my perspective instead. I'll also discuss some of the recent changes to Ruby and whether they adhere to its creed or not. Controversy & fun ahead! "
+        talk_video_url:
+        speakers:
+          speaker_1: *BozhidarBatsov
+
+
+      talk8:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Investing in the Future: Unlocking the Potential of Junior Developers"
+        talk_description: "Junior developers are often undervalued in the workplace, yet they are the future of our industry. 
+        <br />Companies struggle to find enough senior developers but often miss out on the opportunity to educate their own. 
+        <br />In this talk, we will explore best practices for empowering and elevating junior developers. 
+        <br />How you, as a senior developer can contribute most effectively to their growth and use hands on learning to not only transfer knowledge but also motivate them. We will also look at how you, as a junior developer can best guide your early career and leverage the team to progress in your career and gain expertise. 
+        <br /> <br />Join us to learn how to invest in the future of your company by building a strong and diverse team."
+        talk_video_url:
+        speakers:
+          speaker_1: *HanaHarencarova
+
+
+      
       # titolotalk2:
       #   item_type: "talk"
       #   track: *track_1
