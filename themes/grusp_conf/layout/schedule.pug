@@ -103,9 +103,9 @@ block content
                             if(row_items[datetimes[index]][i] !== undefined)
                               //- ...allora aggiungiamo all'oggetto l'attributo rowspan...
                               - row_items[datetimes[index]][i].rowspan = cell_rowspan
-                          if(row_items[datetimes[index+1]][i].item_type == 'talk' || row_items[datetimes[index+1]][i].item_type == 'workshop' || row_items[datetimes[index+1]][i].item_type == 'other')
-                            //- ...ma aumentiamo effettivamente il *valore* di cell_rowspan solo passando alla riga successiva
-                            - cell_rowspan++
+                          //if(row_items[datetimes[index+1]][i].item_type == 'talk' || row_items[datetimes[index+1]][i].item_type == 'workshop' || row_items[datetimes[index+1]][i].item_type == 'other')
+                          //  //- ...ma aumentiamo effettivamente il *valore* di cell_rowspan solo passando alla riga successiva
+                          //  - cell_rowspan++
 
                   //- loop datetimes
                   each datetime, index in Object.keys(row_items)

@@ -143,6 +143,9 @@ block content
 
               h2(role="heading" aria-level="2" id=key).is-title.is-2
                 a(href=schedule_url).schedule-anchor !{talk.talk_title}
+              if(talk.speakers)
+                each speaker in talk.speakers
+                  h3(id=slugify(speaker.speaker_name))
               p !{talk.talk_description}
               if(talk.talk_video_url)
                 .video-container

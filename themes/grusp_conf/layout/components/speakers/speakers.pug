@@ -35,10 +35,10 @@ section(id="hero__speakers").section_nopadding
           each item in var_speakers
             if(!map.has(item.speaker_name))
               - map.set(item.speaker_name, true)
-              - filtered.push({speaker_name: item.speaker_name, speaker_pic_filename: item.speaker_pic_filename, speaker_role: item.speaker_role, is_mc: item.is_mc})
+              - filtered.push({speaker_name: item.speaker_name, speaker_slug: slugify(item.speaker_name), speaker_pic_filename: item.speaker_pic_filename, speaker_role: item.speaker_role, is_mc: item.is_mc})
           each speaker in filtered
             - filename = `/img/speakers/${speaker.speaker_pic_filename}`
-            - target_href = `/talks_speakers#${speaker.speaker_name}`
+            - target_href = `/talks_speakers#${speaker.speaker_slug}`
             .card.speaker-card(class=speaker.is_mc ? 'speaker-card--mc' : '')
               a(href=target_href role="button" aria-label=speaker.speaker_name)
                 .card-image
