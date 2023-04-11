@@ -24,8 +24,8 @@ welcome_submenu:
   coc: code of conduct
   scholarships: scholarships
   where: where
-  # delete this row to take out of the menu
-  cfp: call for papers
+  # comment this row to take out of the menu
+  # cfp: call for papers
 
 # stylesheets loaded in the <head>
 stylesheets:
