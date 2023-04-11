@@ -62,12 +62,27 @@ speaker_5: &JuLiu
   speaker_github_url: "https://github.com/Arkham"
   is_mc: false
 
+
+speaker_6: &RidhwanaKhan
+  speaker_in_speaker_lists: true
+  speaker_name: "Ridhwana Khan"
+  speaker_pic_filename: Ridhwana_Khan.png
+  speaker_role: "Lead Software Engineer @ Forem (aka DEV)"
+  speaker_bio: "Ridhwana is a lead software engineer at Forem aka DEV (https://dev.to/) where she feeds her passion for building & creating useful things! 
+  <br /> Currently living in in Cape Town, South Africa, she enjoys sharing her knowledge and learning from new & interesting people from all around the globe. 
+  <br />Ridhwana is also a founder of a non profit organisation called Kasi Maths where she's trying to change the state of education in South Africa one student at the time.."
+  speaker_twitter_url: "https://twitter.com/Ridhwana_K"
+  speaker_linkedin_url: "https://www.linkedin.com/in/ridhwanakhan/"
+  speaker_github_url: "https://github.com/Ridhwana"
+  is_mc: false
+
 speakers:
   speaker_1: *PaoloPerrotta
   speaker_2: *RebeccaFernandes 
   speaker_3: *GiuliaMialich
   speaker_4: *FrederickCheung
   speaker_5: *JuLiu
+  speaker_6: *RidhwanaKhan
 
 tracks:
   track_1: &track_1
@@ -203,6 +218,20 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
         talk_video_url:
         speakers:
           speaker_1: *JuLiu
+
+      talk6:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Investing in the Future: Unlocking the Potential of Junior Developers"
+        talk_description: "Junior developers are often undervalued in the workplace, yet they are the future of our industry. 
+        <br />Companies struggle to find enough senior developers but often miss out on the opportunity to educate their own. 
+        <br />In this talk, we will explore best practices for empowering and elevating junior developers. How you, as a senior developer can contribute most effectively to their growth and use hands on learning to not only transfer knowledge but also motivate them. We will also look at how you, as a junior developer can best guide your early career and leverage the team to progress in your career and gain expertise. 
+        <br /> <br />Join us to learn how to invest in the future of your company by building a strong and diverse team."
+        talk_video_url:
+        speakers:
+          speaker_1: *RidhwanaKhan
 
 
       
