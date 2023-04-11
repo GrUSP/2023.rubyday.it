@@ -15,8 +15,22 @@ speaker_1: &PaoloPerrotta
   speaker_github_url: "https://github.com/nusco"
   is_mc: false
 
+speaker_2: &RebeccaFernandes
+  speaker_in_speaker_lists: true
+  speaker_name: "Rebecca Fernandes"
+  speaker_pic_filename: Rebecca_Fernandes.png
+  speaker_role: "Live Coding Artist & Facilitator"
+  speaker_bio: "Since 2015, Raia has been creating original live coded compositions in Sonic Pi with vocal layering. <br />
+  A founding member of Algorave India, much of their live coding is shared through workshops and live shows, supported by zkm, Goethe institute and the Canada Council for Arts. <br />
+  Being autodidactic in music and coding, xe brings a unique outlook to live coding production. 
+  <br />The resulting effects are lyrical music, enveloped by code, with the potential to connect."
+  speaker_github_url: "https://github.com/Raiamusic"
+  speaker_instagram_url: "https://www.instagram.com/rrraia_/"
+  is_mc: false
+
 speakers:
   speaker_1: *PaoloPerrotta
+  speaker_2: *RebeccaFernandes 
 
 tracks:
   track_1: &track_1
@@ -88,6 +102,25 @@ Give me some time, and I'll give you an intuitive, high-level understanding of A
         talk_video_url:
         speakers:
           speaker_1: *PaoloPerrotta
+
+      talk2:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Anatomy of a Sonic Pi Song"
+        talk_description: "Have you ever considered what makes a \"good\" song? <br />
+        Maybe it's a sweet melody, or the beat that keeps you pushing through to the end of a workout. Whatever the use case, Sonic Pi can synthesize it. <br />
+        In our session together, raia takes participants through coding a range of song components, and together, we'll build a band of live loops including: rhythm sections, melody, chord progressions and audio embellishments. <br />
+        We'll build a song that can be mixed and modified at will and in the process, learn some key elements of what makes Sonic Pi \"sing.\" 
+        <br /> Expect to walk away with a deeper understanding of samples, synthesizers, live loops, if/for statements, spreads, rings, and lists, all within the Ruby-reliant context of Sonic Pi's live coding environment."
+        talk_video_url:
+        speakers:
+          speaker_1: *RebeccaFernandes
+
+
+
+      
       # titolotalk2:
       #   item_type: "talk"
       #   track: *track_1
