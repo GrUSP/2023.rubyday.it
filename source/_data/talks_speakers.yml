@@ -104,14 +104,15 @@ speaker_8: &HanaHarencarova
   speaker_linkedin_url: "https://www.linkedin.com/in/hana-harencarova/"
 
 speakers:
-  speaker_1: *PaoloPerrotta
-  speaker_2: *RebeccaFernandes 
-  speaker_3: *GiuliaMialich
-  speaker_4: *FrederickCheung
-  speaker_5: *JuLiu
-  speaker_6: *RidhwanaKhan
+ 
   speaker_7: *BozhidarBatsov
+  speaker_4: *FrederickCheung
+  speaker_2: *RebeccaFernandes 
   speaker_8: *HanaHarencarova
+  speaker_6: *RidhwanaKhan
+  speaker_5: *JuLiu
+  speaker_3: *GiuliaMialich
+  speaker_1: *PaoloPerrotta
 
 tracks:
   track_1: &track_1
