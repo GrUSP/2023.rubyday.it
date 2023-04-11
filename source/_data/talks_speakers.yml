@@ -4,18 +4,19 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &PaoloPerrotta
+  speaker_in_speaker_lists: true
+  speaker_name: "Paolo Perrotta"
+  speaker_pic_filename: Paolo_Perrotta.png
+  speaker_role: "Author"
+  speaker_bio: "Paolo Perrotta is the author of \"Metaprogramming Ruby\", \"Programming Machine Learning\", and a bunch of popular Pluralsight trainings.He has over thirty years of experience as a developer, ranging from embedded to enterprise software, computer games, and web applications."
+  speaker_linkedin_url: "https://www.linkedin.com/in/paoloperrotta/"
+  speaker_twitter_url: "https://twitter.com/nusco"
+  speaker_github_url: "https://github.com/nusco"
   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *PaoloPerrotta
 
 tracks:
   track_1: &track_1
@@ -72,16 +73,21 @@ days:
         service_icon: "glass"
 
       # talk
-      # talk1:
-      #   item_type: "talk"
-      #   track: *track_1
-      #   # start_datetime: 2022-05-19T09:30+02:00
-      #   # end_datetime: 2022-05-19T10:25+02:00
-      #   talk_title: ""
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *speaker
+      talk1:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "How ChatGPT Works"
+        talk_description: "
+ChatGPT astonishes everyone, including maybe his own designers. As software developers, we're always looking for the gears behind the magic. <br/> How can this thing possibly work?<br />
+
+Unfortunately, delving into AI is no piece of cake. Even for programmers, modern AI is an intimidating field, ridden with math jargon and research-y conventions. <br />Transformers, word vectors, deep recurrent neural networks… <br />This talk doesn't simplify or dumb down those complex topics. Instead, it explains them in the language of developers: diagrams, examples, and code.
+
+Give me some time, and I'll give you an intuitive, high-level understanding of AI language models. Let's demystify language AI!"
+        talk_video_url:
+        speakers:
+          speaker_1: *PaoloPerrotta
       # titolotalk2:
       #   item_type: "talk"
       #   track: *track_1
