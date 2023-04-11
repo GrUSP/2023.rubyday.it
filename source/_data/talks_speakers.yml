@@ -103,6 +103,17 @@ speaker_8: &HanaHarencarova
   speaker_instagram_url: "https://www.instagram.com/momslearntocode/"
   speaker_linkedin_url: "https://www.linkedin.com/in/hana-harencarova/"
 
+speaker_9: &MonicaGiambitto
+  speaker_in_speaker_lists: true
+  speaker_name: "Monica Giambitto"
+  speaker_pic_filename: Monica_Giambitto.png
+  speaker_role: "Head of Engineering @ Beyond"
+  speaker_bio: "Software engineer at heart turned manager. Italian in Munich. Co-host of the Expanding Beyond podcast. Proud MC for the Ruby community."
+  speaker_github_url: "https://github.com/nirnaeth/"  
+  speaker_linkedin_url: "https://www.linkedin.com/in/monicagiambitto/"
+  is_mc: true
+
+
 speakers:
  
   speaker_7: *BozhidarBatsov
@@ -113,6 +124,7 @@ speakers:
   speaker_5: *JuLiu
   speaker_3: *GiuliaMialich
   speaker_1: *PaoloPerrotta
+  speaker_9: *MonicaGiambitto
 
 tracks:
   track_1: &track_1
