@@ -42,7 +42,7 @@ This realization has led me to transition into the role of an engineering manage
 
 speaker_4: &FrederickCheung
   speaker_in_speaker_lists: true
-  speaker_name: "Frederick_Cheung"
+  speaker_name: "Frederick Cheung"
   speaker_pic_filename: Frederick_Cheung.png
   speaker_role: "Lead Engineer @ skiller whale"
   speaker_bio: "Lead Engineer at Skiller Whale and long term rubyist. Mediocre runner, cat enthusiast."
@@ -50,11 +50,24 @@ speaker_4: &FrederickCheung
   speaker_github_url: "https://github.com/fcheung"
   is_mc: false
 
+speaker_5: &JuLiu
+  speaker_in_speaker_lists: true
+  speaker_name: "Ju Liu"
+  speaker_pic_filename: Ju_Liu.png
+  speaker_role: "Staff Engineer @ Shopify"
+  speaker_bio: "Ju was born in China, moved to Italy as a kid, grew up eating a lot of pasta, and started messing around with computers. <br />
+  He now lives in the UK and has learned to enjoy queueing. He loves to solve interesting problems and build amazing products. 
+  <br />When he’s not doing that, he’s probably rock climbing.."
+  speaker_twitter_url: "https://twitter.com/arkh4m"
+  speaker_github_url: "https://github.com/Arkham"
+  is_mc: false
+
 speakers:
   speaker_1: *PaoloPerrotta
   speaker_2: *RebeccaFernandes 
   speaker_3: *GiuliaMialich
   speaker_4: *FrederickCheung
+  speaker_5: *JuLiu
 
 tracks:
   track_1: &track_1
@@ -175,6 +188,21 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
         talk_video_url:
         speakers:
           speaker_1: *FrederickCheung
+
+
+      talk5:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "The Functional Alternative"
+        talk_description: "We'll start with a simple Ruby Kata and solve it together, live, with imperative programming. 
+        <br />We'll then fix the many, many, many things we got wrong. Then we'll solve the problem again using patterns from functional programming. You'll leave this talk with a clear and concrete example of why functional programming matters, why immutable code matters, and why it can help you writing bug-free code. 
+        
+        <br /> <br />The next time you find yourself writing imperative code, you'll think about... the functional alternative."
+        talk_video_url:
+        speakers:
+          speaker_1: *JuLiu
 
 
       
