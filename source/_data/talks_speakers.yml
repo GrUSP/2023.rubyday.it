@@ -28,9 +28,22 @@ speaker_2: &RebeccaFernandes
   speaker_instagram_url: "https://www.instagram.com/rrraia_/"
   is_mc: false
 
+
+speaker_3: &GiuliaMialich
+  speaker_in_speaker_lists: true
+  speaker_name: "Giulia Mialich"
+  speaker_pic_filename: Giulia_Mialich.png
+  speaker_role: "Engineering Manager @ Nebulab"
+  speaker_bio: "After over a decade of working as a full-stack developer, I have discovered that my passion for management and working with people surpasses my love for code.<br />
+This realization has led me to transition into the role of an engineering manager, where I can use my skills and experience to help others reach their full potential and make a meaningful impact on creating a healthy working environment."
+  speaker_linkedin_url: "https://www.linkedin.com/in/gmialich/"
+  speaker_twitter_url: "https://twitter.com/gi_my86"
+  is_mc: false
+
 speakers:
   speaker_1: *PaoloPerrotta
   speaker_2: *RebeccaFernandes 
+  speaker_3: *GiuliaMialich
 
 tracks:
   track_1: &track_1
@@ -117,6 +130,27 @@ Give me some time, and I'll give you an intuitive, high-level understanding of A
         talk_video_url:
         speakers:
           speaker_1: *RebeccaFernandes
+
+
+      talk3:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "One-on-One: the benefit you should look for"
+        talk_description: "One-on-one meetings are crucial for promoting a healthy company culture, but do the participants truly recognize their value? <br />
+The theory says these meetings provide an excellent opportunity for managers and employees to improve communication, reduce conflicts, and increase job satisfaction and motivation.
+The reality shows that one-on-one effectiveness relies heavily on human interactions, making success unpredictable. <br/>
+<br />During the session, we'll explore effective practices to help answer questions such as:
+<br />What makes one-on-one meetings effective for managers and what for engineers?
+<br />How can we effectively communicate with silent individuals during these meetings?
+<br />Should we establish an agenda for the meeting or not?
+<br />Should personal matters be discussed during those sections?
+<br /><br />This talk is a must-attend if you want to improve your team management skills or gain insight into how one-on-one meetings can contribute to your professional development."
+        talk_video_url:
+        speakers:
+          speaker_1: *GiuliaMialich
+
 
 
 
