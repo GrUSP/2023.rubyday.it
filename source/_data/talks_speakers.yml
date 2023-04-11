@@ -88,8 +88,20 @@ speaker_7: &BozhidarBatsov
   speaker_github_url: "https://github.com/bbatsov"
   speaker_twitter_url: "https://twitter.com/bbatsov"
   speaker_instagram_url: "https://www.instagram.com/bbatsov/"
-  
   is_mc: false
+
+speaker_8: &HanaHarencarova
+  speaker_in_speaker_lists: true
+  speaker_name: "Hana Harencarova"
+  speaker_pic_filename: Hana_Harencarova.png
+  speaker_role: "Software Engineer @ GitHub"
+  speaker_bio: "Hana is a Rubyist by heart and a software engineer at GitHub. 
+  <br />After finishing her PhD in judgement and decision making psychology she got more and more interested in coding. From working in R and data analysis she shifted her professional orientation to web development and programming. 
+  <br /> She fell in love with Ruby and she shares her passion by teaching at Ruby Monstas Zürich and Rails Girls."
+  speaker_github_url: "https://github.com/hharen"
+  speaker_twitter_url: "https://twitter.com/hanaharencar"
+  speaker_instagram_url: "https://www.instagram.com/momslearntocode/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/hana-harencarova/"
 
 speakers:
   speaker_1: *PaoloPerrotta
@@ -99,6 +111,7 @@ speakers:
   speaker_5: *JuLiu
   speaker_6: *RidhwanaKhan
   speaker_7: *BozhidarBatsov
+  speaker_8: *HanaHarencarova
 
 tracks:
   track_1: &track_1
@@ -240,11 +253,13 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
         track: *track_1
         # start_datetime: 2022-05-19T09:30+02:00
         # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Investing in the Future: Unlocking the Potential of Junior Developers"
-        talk_description: "Junior developers are often undervalued in the workplace, yet they are the future of our industry. 
-        <br />Companies struggle to find enough senior developers but often miss out on the opportunity to educate their own. 
-        <br />In this talk, we will explore best practices for empowering and elevating junior developers. How you, as a senior developer can contribute most effectively to their growth and use hands on learning to not only transfer knowledge but also motivate them. We will also look at how you, as a junior developer can best guide your early career and leverage the team to progress in your career and gain expertise. 
-        <br /> <br />Join us to learn how to invest in the future of your company by building a strong and diverse team."
+        talk_title: "Caching strategies on https://dev.to"
+        talk_description: "We’ve always put a lot of effort into performance at DEV (https://dev.to/). 
+        <br />We want our users to be able to see their content almost instantaneously when interacting with our site. 
+        <br />In order to do so we’ve placed emphasis on caching. We’ve had to ask ourselves questions like what are the right things to cache? 
+        <br />Which layer in the stack would be best to cache it? And how will this affect the overall performance?
+
+        <br /><br />During this presentation, I’d like to show you some of the caching strategies we have in place and discuss how they’ve sped up the interactions within our site. "
         talk_video_url:
         speakers:
           speaker_1: *RidhwanaKhan
@@ -266,6 +281,22 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
         talk_video_url:
         speakers:
           speaker_1: *BozhidarBatsov
+
+
+      talk8:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Investing in the Future: Unlocking the Potential of Junior Developers"
+        talk_description: "Junior developers are often undervalued in the workplace, yet they are the future of our industry. 
+        <br />Companies struggle to find enough senior developers but often miss out on the opportunity to educate their own. 
+        <br />In this talk, we will explore best practices for empowering and elevating junior developers. 
+        <br />How you, as a senior developer can contribute most effectively to their growth and use hands on learning to not only transfer knowledge but also motivate them. We will also look at how you, as a junior developer can best guide your early career and leverage the team to progress in your career and gain expertise. 
+        <br /> <br />Join us to learn how to invest in the future of your company by building a strong and diverse team."
+        talk_video_url:
+        speakers:
+          speaker_1: *HanaHarencarova
 
 
       
