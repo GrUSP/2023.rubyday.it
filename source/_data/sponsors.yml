@@ -20,10 +20,18 @@ gold:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
-  sponsor0:
+  sponsor1:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor2:
+    name: "seesaw"
+    logo_filename: "seesaw.png"
+    site_url: "https://seesaw.it/"
+  sponsor3:
+    name: "WeLaika"
+    logo_filename: "welaika.svg"
+    site_url: "https://welaika.com/"
 bronze:
   sponsor2:
     name: "stickermule"
