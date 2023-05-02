@@ -21,14 +21,18 @@ gold:
     site_url: "https://www.workwave.com/"
 silver:
   sponsor1:
+    name: "AppSignal"
+    logo_filename: "appsignal.svg"
+    site_url: "https://www.appsignal.com/ruby"
+  sponsor2:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor2:
+  sponsor3:
     name: "seesaw"
     logo_filename: "seesaw.png"
     site_url: "https://seesaw.it/"
-  sponsor3:
+  sponsor4:
     name: "WeLaika"
     logo_filename: "welaika.svg"
     site_url: "https://welaika.com/"
