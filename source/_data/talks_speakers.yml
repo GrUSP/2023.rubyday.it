@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -147,45 +147,62 @@ tracks:
 
 days:
   day_1:
-    date: 2021-06-08T09:45+02:00
+    date: 2023-06-16T09:00+02:00
     title: "Day 1"
     talks:
     # service
+      registration:
+        item_type: "service"
+        start_datetime: 2023-06-16T09:00+02:00
+        end_datetime: 2023-06-16T09:25+02:00
+        talk_title: "Registration - collect your badge and swags!"
       opening:
         item_type: "service"
-        start_datetime: 2021-06-08T09:45+02:00
-        end_datetime: 2021-06-08T10:00+02:00
+        start_datetime: 2023-06-16T09:25+02:00
+        end_datetime: 2023-06-16T09:40+02:00
         talk_title: "Opening by GrUSP"
       closing:
         item_type: "service"
-        start_datetime: 2021-06-08T17:45+02:00
-        end_datetime: 2021-06-08T18:00+02:00
-        talk_title: "See you tomorrow!"
+        start_datetime: 2023-06-16T17:50+02:00
+        end_datetime: 2023-06-16T18:00+02:00
+        talk_title: "See you next time!"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2021-06-08T11:00+02:00
-        end_datetime: 2021-06-08T11:15+02:00
+        start_datetime: 2023-06-16T11:20+02:00
+        end_datetime: 2023-06-16T11:50+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
-      coffee-afternoon:
+      lunch:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        start_datetime: 2023-06-16T13:10+02:00
+        end_datetime: 2023-06-16T14:20+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      happy-hour:
+      coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: 2023-06-16T16:00+02:00
+        end_datetime: 2023-06-16T16:30+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
+      lightning:
+        item_type: "service"
+        start_datetime: 2023-06-16T14:20+02:00
+        end_datetime: 2023-06-16T14:40+02:00
+        talk_title: "Lightning talks"
+      # happy-hour:
+      #   item_type: "service"
+      #   start_datetime: 2023-06-16T18:25+02:00
+      #   end_datetime: 2023-06-16T19:30+02:00
+      #   talk_title: "Happy Hour"
+      #   service_icon: "glass"
 
       # talk
       talk1:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-06-16T09:40+02:00
+        end_datetime: 2023-06-16T10:40+02:00
         talk_title: "How ChatGPT Works"
         talk_description: "
 ChatGPT astonishes everyone, including maybe his own designers. As software developers, we're always looking for the gears behind the magic. <br/> How can this thing possibly work?<br />
@@ -200,8 +217,8 @@ Give me some time, and I'll give you an intuitive, high-level understanding of A
       talk2:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-06-16T10:40+02:00
+        end_datetime: 2023-06-16T11:20+02:00
         talk_title: "Anatomy of a Sonic Pi Song"
         talk_description: "Have you ever considered what makes a \"good\" song? <br />
         Maybe it's a sweet melody, or the beat that keeps you pushing through to the end of a workout. Whatever the use case, Sonic Pi can synthesize it. <br />
@@ -216,8 +233,8 @@ Give me some time, and I'll give you an intuitive, high-level understanding of A
       talk3:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-06-16T11:50+02:00
+        end_datetime: 2023-06-16T12:30+02:00
         talk_title: "One-on-One: the benefit you should look for"
         talk_description: "One-on-one meetings are crucial for promoting a healthy company culture, but do the participants truly recognize their value? <br />
 The theory says these meetings provide an excellent opportunity for managers and employees to improve communication, reduce conflicts, and increase job satisfaction and motivation.
@@ -236,8 +253,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       talk4:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-06-16T12:30+02:00
+        end_datetime: 2023-06-16T13:10+02:00
         talk_title: "End to end typing for web applications"
         talk_description: "Ever had a bug because the frontend made incorrect assumptions about the shape of response data from the backend? <br />
         Or maybe you trod nervously during a refactor? Or perhaps you broke an app by changing the backend data in a way you didn’t think would matter? <br /><br /> 
@@ -250,8 +267,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       talk5:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-06-16T14:40+02:00
+        end_datetime: 2023-06-16T15:20+02:00
         talk_title: "The Functional Alternative"
         talk_description: "We'll start with a simple Ruby Kata and solve it together, live, with imperative programming. 
         <br />We'll then fix the many, many, many things we got wrong. Then we'll solve the problem again using patterns from functional programming. You'll leave this talk with a clear and concrete example of why functional programming matters, why immutable code matters, and why it can help you writing bug-free code. 
@@ -264,8 +281,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       talk6:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-06-16T15:20+02:00
+        end_datetime: 2023-06-16T16:00+02:00
         talk_title: "Caching strategies on https://dev.to"
         talk_description: "We’ve always put a lot of effort into performance at DEV (https://dev.to/). 
         <br />We want our users to be able to see their content almost instantaneously when interacting with our site. 
@@ -280,8 +297,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       talk7:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-06-16T16:30+02:00
+        end_datetime: 2023-06-16T17:10+02:00
         talk_title: "Ruby's Creed"
         talk_description: "Every programming language has some fundamental idea(s) that drives its design and evolution. 
         <br />For Haskell that’s functional purity and state-of-the-art static typing, for Erlang that’s distributed programming and fault tolerance, for Clojure that’s simplicity and stability. 
@@ -299,8 +316,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       talk8:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-06-16T17:10+02:00
+        end_datetime: 2023-06-16T17:50+02:00
         talk_title: "Investing in the Future: Unlocking the Potential of Junior Developers"
         talk_description: "Junior developers are often undervalued in the workplace, yet they are the future of our industry. 
         <br />Companies struggle to find enough senior developers but often miss out on the opportunity to educate their own. 
@@ -316,8 +333,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       # titolotalk2:
       #   item_type: "talk"
       #   track: *track_1
-      #   # start_datetime: 2022-05-19T10:25+02:00
-      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   # start_datetime: 2023-06-16T10:25+02:00
+      #   # end_datetime: 2023-06-16T11:05+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
@@ -327,8 +344,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       # talk3:
       #   item_type: "talk"
       #   track: *track_1
-      #   # start_datetime: 2022-05-19T09:30+02:00
-      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   # start_datetime: 2023-06-16T09:30+02:00
+      #   # end_datetime: 2023-06-16T10:25+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
@@ -337,8 +354,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       # titolotalk4:
       #   item_type: "talk"
       #   track: *track_1
-      #   # start_datetime: 2022-05-19T10:25+02:00
-      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   # start_datetime: 2023-06-16T10:25+02:00
+      #   # end_datetime: 2023-06-16T11:05+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
@@ -348,8 +365,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       # talk5:
       #   item_type: "talk"
       #   track: *track_1
-      #   # start_datetime: 2022-05-19T09:30+02:00
-      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   # start_datetime: 2023-06-16T09:30+02:00
+      #   # end_datetime: 2023-06-16T10:25+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
@@ -358,8 +375,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       # titolotalk6:
       #   item_type: "talk"
       #   track: *track_1
-      #   # start_datetime: 2022-05-19T10:25+02:00
-      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   # start_datetime: 2023-06-16T10:25+02:00
+      #   # end_datetime: 2023-06-16T11:05+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
@@ -369,8 +386,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       # talk7:
       #   item_type: "talk"
       #   track: *track_1
-      #   # start_datetime: 2022-05-19T09:30+02:00
-      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   # start_datetime: 2023-06-16T09:30+02:00
+      #   # end_datetime: 2023-06-16T10:25+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
@@ -379,8 +396,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       # titolotalk8:
       #   item_type: "talk"
       #   track: *track_1
-      #   # start_datetime: 2022-05-19T10:25+02:00
-      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   # start_datetime: 2023-06-16T10:25+02:00
+      #   # end_datetime: 2023-06-16T11:05+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
@@ -390,8 +407,8 @@ The reality shows that one-on-one effectiveness relies heavily on human interact
       # talk9:
       #   item_type: "talk"
       #   track: *track_1
-      #   # start_datetime: 2022-05-19T09:30+02:00
-      #   # end_datetime: 2022-05-19T10:25+02:00
+      #   # start_datetime: 2023-06-16T09:30+02:00
+      #   # end_datetime: 2023-06-16T10:25+02:00
       #   talk_title: ""
       #   talk_description: ""
       #   talk_video_url:
