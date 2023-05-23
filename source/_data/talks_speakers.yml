@@ -15,14 +15,15 @@ speaker_1: &PaoloPerrotta
   speaker_github_url: "https://github.com/nusco"
   is_mc: false
 
-speaker_2: &TBA
-  speaker_in_speaker_lists: false
-  speaker_name: "TBA"
-  speaker_pic_filename:
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_instagram_url: ""
+speaker_2: &AlessandroRizzo
+  speaker_in_speaker_lists: true
+  speaker_name: "Alessandro Rizzo"
+  speaker_pic_filename: alessandro-rizzo.JPG
+  speaker_role: "Senior Software Engineer @ Treatwell"
+  speaker_bio: "I started using Ruby in early 2016, just after finishing high school, and I instantly loved it. I am passionate about this work and the projects I'm following in Treatwell. I grew along with the company and I worked on a lot of cross team projects where the backend application played an important role.
+Everything related to technology sparks my curiosity, and it is important to know that my working career started as a hacker, winning a hackathon!"
+  speaker_github_url: "https://github.com/arizz96"
+  speaker_linkedin_url: "https://www.linkedin.com/in/alessandro-rizzo-178a04101/"
   is_mc: false
 
 
@@ -115,12 +116,12 @@ speakers:
 
   speaker_7: *BozhidarBatsov
   speaker_4: *FrederickCheung
-  # speaker_2: *
   speaker_8: *HanaHarencarova
   speaker_6: *RidhwanaKhan
   speaker_5: *JuLiu
   speaker_3: *GiuliaMialich
   speaker_1: *PaoloPerrotta
+  speaker_2: *AlessandroRizzo
   speaker_9: *MonicaGiambitto
 
 tracks:
@@ -216,11 +217,12 @@ Give me some time, and I'll give you an intuitive, high-level understanding of A
         track: *track_1
         start_datetime: 2023-06-16T10:40+02:00
         end_datetime: 2023-06-16T11:20+02:00
-        talk_title: "TBA"
-        talk_description: ""
+        talk_title: "RuboCop sent you a friend request"
+        talk_description: "Most of us are using RuboCop as a code style checker with the large amount of Cops that the community provides, but is that enough for you?
+By understanding the powerful internals of RuboCop, we’ll create a custom Cop and a custom style guide to push forward the quality of the code we write daily."
         talk_video_url:
         speakers:
-          speaker_1: *TBA
+          speaker_1: *AlessandroRizzo
 
 
       talk3:
