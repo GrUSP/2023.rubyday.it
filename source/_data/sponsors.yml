@@ -29,10 +29,14 @@ silver:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
   sponsor3:
+    name: "nebulab"
+    logo_filename: "nebulab.svg"
+    site_url: "https://nebulab.com/"
+  sponsor4:
     name: "seesaw"
     logo_filename: "seesaw.png"
     site_url: "https://seesaw.it/"
-  sponsor4:
+  sponsor5:
     name: "WeLaika"
     logo_filename: "welaika.svg"
     site_url: "https://welaika.com/"
