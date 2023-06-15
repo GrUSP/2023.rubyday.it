@@ -203,11 +203,10 @@ days:
         end_datetime: 2023-06-16T10:40+02:00
         talk_title: "How ChatGPT Works"
         talk_description: "
-ChatGPT astonishes everyone, including maybe his own designers. As software developers, we're always looking for the gears behind the magic. <br/> How can this thing possibly work?<br />
+ChatGPT astonishes everyone, including maybe his own designers. <br />As software developers, we're always looking for the gears behind the magic. <br />
+How can this thing possibly work? <br />
 
-Unfortunately, delving into AI is no piece of cake. Even for programmers, modern AI is an intimidating field, ridden with math jargon and research-y conventions. <br />Transformers, word vectors, deep recurrent neural networks… <br />This talk doesn't simplify or dumb down those complex topics. Instead, it explains them in the language of developers: diagrams, examples, and code.
-
-Give me some time, and I'll give you an intuitive, high-level understanding of AI language models. Let's demystify language AI!"
+Give me some time, and I'll give you an intuitive, high-level understanding of AI language models"
         talk_video_url:
         speakers:
           speaker_1: *PaoloPerrotta
